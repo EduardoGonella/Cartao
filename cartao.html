@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        p {
+            margin: 0;
+            color: #272525;
+            font-family: sans-serif;
+        }
+
+        #cartao {
+            width: 500px;
+            height: 250px;
+            background-color: #bdb9b9;
+            border-radius: 14px;
+            padding: 15px;
+            position: relative;
+        }
+
+        .nome-cartao {
+            font-size: 30px;
+        }
+
+        .chip {
+            width: 80px;
+            padding-left: 15px;
+        }
+
+        .numero-cartao {
+            font-size: 25px;
+        }
+
+        .valid-cartao{
+            font-size: 10px;
+        }
+
+        .texto-cartao {
+            font-size: 20px;
+        }
+        
+        .logo {
+
+            position: relative;
+            left: 440px;
+            bottom: 20px;
+
+            .circulo-vermelho {
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            position: absolute;
+            left: -30px;
+            background-color: rgba(255, 0, 0, 0.534);
+            }
+
+            .circulo-amarelo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            position: relative;
+            background-color: yellow;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="cartao">
+        <p class="nome-cartao">business</p>
+        <img class="chip" src="chip.png" alt="">
+
+        <div class="dados-cartao">
+            <p class="numero-cartao">5412 7512 3412 3456</p>
+            <p class="valid-cartao">VALID THRU</p>
+            <p class="texto-cartao">12/03</p>
+            <p class="texto-cartao">Eduardo Gonella</p>
+        </div>
+
+        <div class="logo">
+            <div class="circulo-vermelho"></div>
+            <div class="circulo-amarelo"></div>
+        </div>
+    </div>
+</body>
+</html>
